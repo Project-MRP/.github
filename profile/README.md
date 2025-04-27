@@ -2,13 +2,12 @@
 
 ## **🗂️ Repository Structure**
 
-| **Repo Purpose** | **Repo name** | **Repo Type** | **Repo Description** |
-| --- | --- | --- | --- |
-| Main | [finance-tracker](https://github.com/Project-MRP/finance-tracker) | Meta / Parent Repo | Central meta-repository for project-wide documentation, infrastructure setup, and coordination. It does not directly contain application code. |
-| Frontend | [finance-tracker-app](https://github.com/Project-MRP/finance-tracker-app) | Frontend Repo | Handles the user interface and client-side logic for managing and tracking finances. |
-| API + DB backend | [finance-tracker-api](https://github.com/Project-MRP/finance-tracker-api) | General Backend | Core backend service responsible for serving APIs, handling business logic, and managing database operations. |
-| Data parsing/import | [finance-tracker-importer](https://github.com/Project-MRP/finance-tracker-importer) | Microservice Backend (Parsing PDF, SMS) | Lightweight microservice dedicated to parsing and importing financial data from external sources like PDFs, SMS, and CSV files. Designed to operate independently and scale as needed. |
-
+| **Repo Purpose** | **Repo name** | **Repo Description** |
+| --- | --- | --- |
+| Meta / Parent Repo | [finance-tracker](https://github.com/Project-MRP/finance-tracker) | Central meta-repository for project-wide documentation, infrastructure setup, and coordination. It does not directly contain application code. |
+| Frontend Repo | [finance-tracker-app](https://github.com/Project-MRP/finance-tracker-app) | Handles the user interface and client-side logic for managing and tracking finances. |
+| General Backend (API + DB) | [finance-tracker-api](https://github.com/Project-MRP/finance-tracker-api) | Core backend service responsible for serving APIs, handling business logic, and managing database operations. |
+| Microservice Backend (Parsing & Importing PDF, SMS) | [finance-tracker-importer](https://github.com/Project-MRP/finance-tracker-importer) | Lightweight microservice dedicated to parsing and importing financial data from external sources like PDFs, SMS, and CSV files. Designed to operate independently and scale as needed. |
 
 <!--
 template
